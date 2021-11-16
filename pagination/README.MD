@@ -9,6 +9,6 @@
 
 - .btn:hover .btn-icon {
   stroke: white; 
-} 
-    -> svg태그에 사용되는 css속성(stroke:선 색상/값)
+}  
+    -> svg태그에 사용되는 css속성(stroke:선 색상/값)</br>
     -> 버튼안에있는 아이콘의 색상을 바꿀때 .btn-icon:hover로 하면 버튼말고 아이콘을 정확히 hover해야지 색이 바뀌므로 .btn:hover .btn-icon으로 설정해준다.
