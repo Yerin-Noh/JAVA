@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  gap: 12px;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid green;
+  background: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+.btn:hover .btn-icon {
+  stroke: white; /*svg태그에 사용되는 css속성(stroke:선 색상/값)*/
+}
+
+.btn-icon {
+  color: green;
+  width: 24px;
+  height: 24px;
+}
+
+.page-link:link,
+.page-link:visited {
+  text-decoration: none;
+  font-size: 18px;
+  color: #343a40;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  background-color: green;
+  color: white;
+}
+
+.dots {
+  color: gray;
+}
